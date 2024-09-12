@@ -1,0 +1,15 @@
+
+@media(max-width: 477px){
+    .profile-details{
+        margin-top: 50px;
+    }
+    .profile-image {
+        width: 100%;
+        border: 1px solid #00478f;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,64 @@
+.sidebar, .sidebar-content {
+    background: #248691;
+    transition: margin-left .35s ease-in-out,left .35s ease-in-out,margin-right .35s ease-in-out,right .35s ease-in-out;
+    color: #ffff;
+}
+
+
+.sidebar-link, a.sidebar-link {
+    background: #136770;
+    color: #ffff;
+}
+
+a.sidebar-link:hover {
+    background:linear-gradient(90deg,rgba(59,125,221,.1),rgba(59,125,221,.088) 50%,transparent);border-left-color:#3b7ddd;
+    color:#e9ecef;
+    
+}
+
+.sidebar-item.active .sidebar-link:hover,
+.sidebar-item.active>.sidebar-link{
+    background:linear-gradient(90deg,rgba(59,125,221,.1),rgba(59,125,221,.088) 50%,transparent);border-left-color:#3b7ddd;
+    color:#e9ecef;
+}
+    
+.btn-light, .btn-light.disabled, .btn-light.focus, .btn-light.hover:not(:disabled):not(.disabled), .btn-light:disabled, .btn-light:focus, .btn-light:hover:not(:disabled):not(.disabled), .btn-outline-light.hover:not(:disabled):not(.disabled), .btn-outline-light:hover:not(:disabled):not(.disabled), .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-white.hover:not(:disabled):not(.disabled), .btn-outline-white:hover:not(:disabled):not(.disabled), .btn-outline-white:not(:disabled):not(.disabled).active, .btn-outline-white:not(:disabled):not(.disabled):active, .btn-white, .btn-white.disabled, .btn-white.focus, .btn-white.hover:not(:disabled):not(.disabled), .btn-white:disabled, .btn-white:focus, .btn-white:hover:not(:disabled):not(.disabled), .show>.btn-light.dropdown-toggle, .show>.btn-white.dropdown-toggle {
+    color: #343a40;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    
+    border: 1px solid #d6d0d2;
+    background-color: #ffff;
+}
+
+.extra-m{
+    margin-top: 20px;
+}
+
+.passport-picture{
+    border: 1px solid #d6d0d2;
+    width: 150px;
+    height: 150px;
+}
+
+.passport-picture img{
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    /* border: none; */
+    outline: none;
+}
+
+.profile-image{
+    width: 70%;
+    border: 1px solid #00478f;
+    
+}
+
+.profile-image img{
+    padding: 10px;
+    width: 100%;
+}
